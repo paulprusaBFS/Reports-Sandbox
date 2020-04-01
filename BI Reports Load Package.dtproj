@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-IL5</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAih9YkDQO0apM8M5NJv9VAAAAAACAAAAAAADZgAAwAAAABAAAACR3iNLEF+NxvyHY0QAEunaAAAAAASAAACgAAAAEAAAAB2XHPbEd6Fyphnlf9ex0yqIAAAAIay2ptz/u+paiGJkUHk1cV97XOhSdLh+sCZfh2oDXWa4bpI/SE/TBz8oRwW568jht4ddO6iViLsjuC6fz20vVKYhl9dDA7UX829vh+AaaYPlfJWNSyeYbxJQ8dPUO3tn2Vgh1JuRIFDNqzrihNFTmTw068Cx6O5mzDHzZHLZfdO28alAd82CzhQAAADZt6TEHc7KXOsj2orE03IwbDu5Ng==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAih9YkDQO0apM8M5NJv9VAAAAAACAAAAAAADZgAAwAAAABAAAADvFc+JLwx5rBIVbWsW2A16AAAAAASAAACgAAAAEAAAADuDqOoAZ5s9A98rtSEiU/6IAAAAd5vQSkq55mODZQLC1mbHTSAtixptsyggRf2J0mXSo+VMdsqr8UKo2tbPvH9oY3uWwIxZmD7Kv/a5L8hKfgAXYdaUqXPbu8rUPQJUtdCrwKYuafkwfKXWqS0WhKS8jWXd0C/KsazIIgR8wyk3vNSKl13RpCrcf1wclUi9JzCqNgPGYhwX6k6v0hQAAADf/z2xyO/uD2gcA+oDYZzMsa42zQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -80,7 +80,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">qa_DW</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">DW</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -124,7 +124,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">192.168.32.131</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">bfs-dw-sql01-ee-dev.cndllincl1lm.us-east-1.rds.amazonaws.com</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -139,6 +139,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">user_pprusa</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -150,10 +151,10 @@
                 <SSIS:Property SSIS:Name="Name">BI Reports Tasks</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">51</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">57</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{D7ED213F-3709-4188-842B-6EF194221E3A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{E5DBBAEF-8EAC-4A57-A145-40D844721675}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
